@@ -23,3 +23,15 @@ Route::get('auth/login/facebook/callback', 'Auth\LoginFacebookController@callbac
 Route::get('/auth/check', function () {
     return view('check');
 });
+
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
