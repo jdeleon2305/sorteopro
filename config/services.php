@@ -32,7 +32,7 @@ return [
 	'facebook' => [
 		'client_id' => '1058905884553762',
 		'client_secret' => '7360ec403220f7dc518e5ffe289aa1c5',
-		'redirect' => 'https://sorteo.local/facebook/callback'
+		'redirect' => 'https://sorteo.pro/auth/login/facebook/callback'
 	],
 
 ];

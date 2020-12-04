@@ -15,9 +15,15 @@ class LoginFacebookController extends Controller
 		return Socialite::driver('facebook')->redirect();
 	}
 	
-	public function callback()
+	public function callback(Request $request)
 	{
-		$user = Socialite::driver('facebook')->user();
-		dd($user);
+     try {
+            $facebookAccount = Socialite::driver('facebook')->user();
+           dd($facebookAccount);
+            return redirect()->route('home');
+
+        } catch (Exception $e) {
+            return redirect()->route('login.facebook');
+        }
 	}
 }
