@@ -78,7 +78,7 @@
 			<br/>Or <br/>
 		</div>
 		<div class="col-md-12 text-center">
-			<a href="" class="fb connect">Sign in with Facebook</a>
+			<a href="{{route('login.facebook')}}" class="fb connect">Sign in with Facebook</a>
 		</div>
 	</div>	
 </div>
