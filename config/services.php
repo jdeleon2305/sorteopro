@@ -30,9 +30,9 @@ return [
         'region' => env('AWS_DEFAULT_REGION', 'us-east-1'),
     ],
 	 'facebook' => [
-		'client_id' => 'xxxx',
-		'client_secret' => 'xxx',
-		'redirect' => 'http://127.0.0.1:8000/callback/facebook',
+		'client_id' => '1058905884553762',
+		'client_secret' => '7360ec403220f7dc518e5ffe289aa1c5',
+		'redirect' => 'https://sorteo.pro/auth/login/facebook/callback',
 	  ], 	
 
 ];
