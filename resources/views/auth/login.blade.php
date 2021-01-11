@@ -69,5 +69,14 @@
             </div>
         </div>
     </div>
+	 <div class="row justify-content-center">
+		<div class="col-md-12 text-center">
+			<br/>Or <br/>
+		</div>
+		<div class="col-md-12 text-center">
+			<a href="{{route('login.facebook')}}" class="fb connect">Login with Facebook</a>
+
+		</div>
+	</div>
 </div>
 @endsection
